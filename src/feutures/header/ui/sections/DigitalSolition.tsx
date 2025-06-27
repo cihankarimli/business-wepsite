@@ -16,7 +16,7 @@ interface PresentationItem {
 
 function DigitalSolition() {
   return (
-    <div className="bg-black text-white">
+    <div className=" text-white">
       {/* Main Content Section */}
       <div className="flex flex-col lg:flex-row gap-3 sm:gap-4 lg:gap-6 p-3 sm:p-4 lg:p-8 max-w-7xl mx-auto">
         {/* Left Section - Main Content */}
