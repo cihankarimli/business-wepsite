@@ -1,0 +1,33 @@
+const digitalPresentations = [
+  {
+    id: 1,
+    text: "CLIENTS",
+    number: 200,
+    value: "+",
+  },
+  {
+    id: 2,
+    text: "PROJECTS",
+    number: 280,
+    value: "+",
+  },
+  {
+    id: 3,
+    text: "HAPPY CLIENTS",
+    number: 100,
+    value: "%",
+  },
+  {
+    id: 4,
+    text: "FOLLOWER",
+    number: 420,
+    value: "K",
+  },
+  {
+    id: 1,
+    text: "Years of Experience",
+    number: 200,
+    value: "+",
+  },
+];
+export default digitalPresentations;
