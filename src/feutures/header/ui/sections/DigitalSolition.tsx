@@ -41,7 +41,7 @@ function DigitalSolition() {
                     className="text-black font-bold"
                     style={{ fontSize: "clamp(0.7rem, 1.5vw, 0.875rem)" }}
                   >
-                    <Image src="/Icon.png" width={20} height={20} />
+                    <Image src="/Icon.png" width={20} height={20} alt="arrow" />
                   </span>
                 </div>
                 <span className="hidden sm:inline">START A PROJECT</span>
@@ -95,7 +95,12 @@ function DigitalSolition() {
                   className="text-black font-bold"
                   style={{ fontSize: "clamp(0.7rem, 1.5vw, 0.875rem)" }}
                 >
-                  <Image src="/IconArrow.png" width={30} height={30} />
+                  <Image
+                    src="/IconArrow.png"
+                    width={30}
+                    height={30}
+                    alt="arrow"
+                  />
                 </span>
               </div>
             </div>
