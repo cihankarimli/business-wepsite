@@ -19,11 +19,11 @@ function ReasonsSection() {
         </div>
 
         {/* Reasons Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 lg:gap-2">
+        <div className="grid grid-cols-1 lg:grid-cols-4  md:grid-cols-2 gap-2  lg:gap-2">
           {reasonData.map((item: ReasonItem, index: number) => (
             <div
               key={index}
-              className="group bg-[#1A1A1A] rounded-2xl p-2 pb-10   "
+              className="group bg-[#1A1A1A]  w-[100%] rounded-2xl p-2 pb-10   "
             >
               {/* Title */}
               <h3 className="text-[clamp(1rem,2.8vw,1.3rem)] font-bold mb-6 leading-tight py-3 px-3 text-[#F9EFEC] uppercase tracking-wide">
@@ -31,12 +31,12 @@ function ReasonsSection() {
               </h3>
 
               {/* Description */}
-              <p className="text-[clamp(0.9rem,1.8vw,1.125rem)] text-[#B3B3B2] leading-relaxed mb-8 lg:mb-5">
+              <p className="text-[clamp(0.9rem,1.8vw,1.125rem)] px-3 text-[#B3B3B2] leading-relaxed mb-8 lg:mb-5">
                 {item.text}
               </p>
 
               {/* Learn More Button */}
-              <div className="flex items-center gap-2 cursor-pointer group-hover:gap-6 transition-all duration-300">
+              <div className="flex items-center gap-2 cursor-pointer group-hover:gap-6 px-3 transition-all duration-300">
                 <div className="w-10 h-10 p-3 bg-[#0F0F0F] rounded-full flex items-center justify-center border border-gray-800 group-hover:bg-gray-800 transition-all duration-300">
                   <Image
                     src="/IconArrow.png"
