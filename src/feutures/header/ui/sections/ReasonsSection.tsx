@@ -26,7 +26,7 @@ function ReasonsSection() {
               className="group bg-[#1A1A1A] rounded-2xl p-2 pb-10   "
             >
               {/* Title */}
-              <h3 className="text-[clamp(1rem,2.8vw,1.3rem)] font-bold mb-6 leading-tight text-[#F9EFEC] uppercase tracking-wide">
+              <h3 className="text-[clamp(1rem,2.8vw,1.3rem)] font-bold mb-6 leading-tight py-3 px-3 text-[#F9EFEC] uppercase tracking-wide">
                 {item.title}
               </h3>
 
