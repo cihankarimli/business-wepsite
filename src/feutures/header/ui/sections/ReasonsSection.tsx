@@ -1,6 +1,6 @@
 import React from "react";
 import reasonData from "@/feutures/header/datas/ReasonsData";
-import Image from "next/image";
+import LearnmoreButton from "@/components/LearnmoreButton";
 
 interface ReasonItem {
   title: string;
@@ -37,18 +37,10 @@ function ReasonsSection() {
 
               {/* Learn More Button */}
               <div className="flex items-center gap-2 cursor-pointer group-hover:gap-6 px-3 transition-all duration-300">
-                <div className="w-10 h-10 p-3 bg-[#0F0F0F] rounded-full flex items-center justify-center border border-gray-800 group-hover:bg-gray-800 transition-all duration-300">
-                  <Image
-                    src="/IconArrow.png"
-                    width={20}
-                    height={20}
-                    alt="Arrow icon"
-                    className="group-hover:scale-110 transition-transform duration-300"
-                  />
-                </div>
-                <p className="text-[#B3B3B2] font-medium whitespace-nowrap text-[clamp(0.875rem,1.5vw,1rem)] group-hover:text-gray-200 transition-colors duration-300">
-                  Learn More
-                </p>
+                <LearnmoreButton
+                  style="flex gap-flex items-center gap-3  justify-center    rounded-2xl3"
+                  text="Learn More"
+                />
               </div>
             </div>
           ))}

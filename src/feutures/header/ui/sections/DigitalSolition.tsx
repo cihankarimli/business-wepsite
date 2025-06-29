@@ -25,7 +25,7 @@ function DigitalSolition() {
           <div className="p-3 sm:p-4 lg:p-6">
             <div className="flex flex-col lg:flex-row lg:justify-between items-start mb-4 sm:mb-6 gap-3 sm:gap-4">
               <h1
-                className="font-black text-white leading-tight"
+                className="font-black text-white leading-tight "
                 style={{ fontSize: "clamp(1.5rem, 5vw, 4rem)" }}
               >
                 DIGITAL SOLUTIONS
@@ -151,8 +151,13 @@ function DigitalSolition() {
                 </div>
               )
             )}
-            <div className="flex-shrink-0 w-full sm:w-auto flex justify-center lg:justify-end mt-4 lg:mt-0">
-              <LearnmoreButton />
+            <div className="flex-shrink-0 w-full sm:w-auto flex justify-center lg:justify-end mt-4 lg:mt-0 items-center gap-3 bg-[#262626]   px-6 py-4 h-35 rounded-2xl p-3">
+              <div>
+                <LearnmoreButton
+                  style="flex items-center gap-3 bg-[#262626] justify-center  px-6 py-4 h-35 rounded-2xl"
+                  text="Know More"
+                />
+              </div>
             </div>
           </div>
 
