@@ -1,14 +1,16 @@
-import DigitalSolition from "@/feutures/header/ui/sections/DigitalSolition";
-import OurServices from "@/feutures/header/ui/sections/OurServices";
+import DigitalSolitionSection from "@/feutures/header/ui/sections/DigitalSolition";
+import OurServicesSection from "@/feutures/header/ui/sections/OurServices";
+import OurWorksSection from "@/feutures/header/ui/sections/OurWorksSection";
 import ReasonsSection from "@/feutures/header/ui/sections/ReasonsSection";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <>
-      <DigitalSolition />
+      <DigitalSolitionSection />
       <ReasonsSection />
-      <OurServices />
+      <OurServicesSection />
+      <OurWorksSection />
     </>
   );
 }

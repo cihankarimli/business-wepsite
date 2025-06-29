@@ -18,14 +18,14 @@ function Navbar() {
           {/* Desktop Menu */}
           <div className="hidden lg:flex gap-5">
             {navbarData.map((item, index) => (
-              <NavLink item={item} variant="desktop" />
+              <NavLink key={index} item={item} variant="desktop" />
             ))}
           </div>
 
           {/* Tablet Menu */}
           <div className="hidden md:flex lg:hidden gap-3">
-            {navbarData.map((item: any, index: number) => (
-              <NavLink item={item} variant="tablet" />
+            {navbarData.map((item, index) => (
+              <NavLink key={index} item={item} variant="tablet" />
             ))}
           </div>
 

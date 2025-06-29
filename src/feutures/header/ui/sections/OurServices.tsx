@@ -23,7 +23,7 @@ function OurServices() {
           {servicesData.map((item: ServicesItem, index: number) => (
             <div
               key={index}
-              className="bg-[#1A1A1A] border border-[#1A1A1A] p-6 sm:p-8 flex flex-col h-full rounded-2xl hover:border-gray-600 cursor-pointer transition-all duration-300"
+              className="bg-[#1A1A1A] border animate-slideRight border-[#1A1A1A] p-6 sm:p-8 flex flex-col h-full rounded-2xl hover:border-gray-600 cursor-pointer transition-all duration-300"
             >
               <div className="flex items-start justify-between mb-6">
                 <div className="flex items-center gap-3 flex-1 min-w-0">
