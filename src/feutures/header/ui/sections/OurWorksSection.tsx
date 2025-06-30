@@ -84,14 +84,14 @@ function OurWorksSection() {
                 <div className="mb-6 space-y-2">
                   <div className="flex items-center text-gray-400 text-sm">
                     <span>Category</span>
-                    <span className="text-[#CE7D63] mx-2 lg:mx-6 hidden lg:inline">
+                    <span className="text-[#CE7D63] mx-2 lg:mx-6  lg:inline">
                       •
                     </span>
                     <span className="text-white">{item.category}</span>
                   </div>
                   <div className="flex items-center text-gray-400 text-sm">
                     <span>Time Taken</span>
-                    <span className="text-[#CE7D63] mx-2 lg:mx-6 hidden lg:inline">
+                    <span className="text-[#CE7D63] mx-2 lg:mx-6  lg:inline">
                       •
                     </span>
                     <span className="text-white">{item.time}</span>
