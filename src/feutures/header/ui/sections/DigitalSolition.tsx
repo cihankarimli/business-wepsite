@@ -3,20 +3,11 @@ import React from "react";
 import SolitonsWorks from "@/feutures/header/datas/DigitalSolitionsWorks";
 import SolitionsPresentation from "@/feutures/header/datas/DigitalSolitionsPresentations";
 import LearnmoreButton from "@/components/LearnmoreButton";
-
-interface WorksItem {
-  workText: string;
-}
-
-interface PresentationItem {
-  text: string;
-  number: number;
-  value: string;
-}
+import { WorksItem, PresentationItem } from "@/types/digitalSolitiontype";
 
 function DigitalSolition() {
   return (
-    <div className=" text-white w-full">
+    <div className=" text-white w-full font-robotoflex ">
       {/* Main Content Section */}
       <div className="flex flex-col lg:flex-row gap-3 sm:gap-4 lg:gap-6 p-3 sm:p-4 lg:p-8 max-w-7xl mx-auto">
         {/* Left Section - Main Content */}
@@ -25,7 +16,7 @@ function DigitalSolition() {
           <div className="p-3 sm:p-4 lg:p-6">
             <div className="flex flex-col lg:flex-row lg:justify-between items-start mb-4 sm:mb-6 gap-3 sm:gap-4">
               <h1
-                className="font-black text-white leading-tight "
+                className=" text-white leading-tight "
                 style={{ fontSize: "clamp(1.5rem, 5vw, 4rem)" }}
               >
                 DIGITAL SOLUTIONS
@@ -33,12 +24,12 @@ function DigitalSolition() {
                 THAT DRIVE SUCCESS
               </h1>
               <button
-                className="flex items-center gap-2 sm:gap-3 text-[#CE7D63] font-semibold whitespace-nowrap self-start lg:self-auto mt-2 lg:mt-0"
+                className="flex items-center gap-2 sm:gap-3 text-[#CE7D63]  whitespace-nowrap self-start lg:self-auto mt-2 lg:mt-0"
                 style={{ fontSize: "clamp(0.7rem, 1.5vw, 0.875rem)" }}
               >
                 <div className="w-7 h-7 sm:w-8 sm:h-8 lg:w-10 lg:h-10 bg-[#CE7D63] rounded-full flex items-center justify-center flex-shrink-0">
                   <span
-                    className="text-black font-bold"
+                    className="text-black "
                     style={{ fontSize: "clamp(0.7rem, 1.5vw, 0.875rem)" }}
                   >
                     <Image src="/Icon.png" width={20} height={20} alt="arrow" />
@@ -92,7 +83,7 @@ function DigitalSolition() {
             <div className="absolute top-3 sm:top-4 lg:top-3 right-3 sm:right-4 lg:right-[3]">
               <div className="w-7 h-7 sm:w-8 sm:h-8 lg:w-20 lg:h-20  bg-[#CE7D63] rounded-full flex items-center justify-center">
                 <span
-                  className="text-black font-bold"
+                  className="text-black "
                   style={{ fontSize: "clamp(0.7rem, 1.5vw, 0.875rem)" }}
                 >
                   <Image
@@ -123,7 +114,7 @@ function DigitalSolition() {
       </div>
 
       {/* Bottom Statistics Section */}
-      <div className="border border-[#1F1F1F] max-w-7xl mx-auto my-4 sm:my-6 lg:my-8 rounded-2xl sm:rounded-3xl py-4 sm:py-6 lg:py-8 px-3 sm:px-4 lg:px-8">
+      <div className="font-robotoflex  border border-[#1F1F1F] max-w-7xl mx-auto my-4 sm:my-6 lg:my-8 rounded-2xl sm:rounded-3xl py-4 sm:py-6 lg:py-8 px-3 sm:px-4 lg:px-8">
         <div className="flex flex-col lg:flex-row justify-center items-center gap-4 sm:gap-6">
           {/* Statistics Cards */}
           <div className="flex flex-wrap justify-center lg:justify-start gap-3 sm:gap-4 lg:gap-6 w-full lg:w-auto">
@@ -153,15 +144,12 @@ function DigitalSolition() {
             )}
             <div className="flex-shrink-0 w-full sm:w-auto flex justify-center lg:justify-end mt-4 lg:mt-0 items-center gap-3 bg-[#262626]   px-6 py-4 h-35 rounded-2xl p-3">
               <div>
-                <LearnmoreButton
-                  style="flex items-center gap-3 bg-[#262626] justify-center  px-6 py-4 h-35 rounded-2xl"
-                  text="Know More"
-                />
+                <LearnmoreButton style="flex items-center gap-3 bg-[#262626] justify-center  px-6 py-4 h-35 rounded-2xl">
+                  Know More
+                </LearnmoreButton>
               </div>
             </div>
           </div>
-
-          {/* Learn More Button */}
         </div>
       </div>
     </div>

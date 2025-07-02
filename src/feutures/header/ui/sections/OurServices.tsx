@@ -2,17 +2,11 @@ import React from "react";
 import servicesData from "@/feutures/header/datas/OurServices";
 import Image from "next/image";
 import LearnmoreButton from "@/components/LearnmoreButton";
-
-interface ServicesItem {
-  image: string;
-  title: string;
-  text: string;
-  price: string;
-}
+import { ServicesItem } from "@/types/servicesType";
 
 function OurServices() {
   return (
-    <div className=" text-white py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
+    <div className=" text-white font-robotoflex py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto  border-1 p-5 rounded-2xl border-[#262626]   ">
         <div className="mb-2  md:mb-10 bg-[#1A1A1A] p-6 rounded-2xl">
           <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-wide  p-4">
@@ -41,10 +35,9 @@ function OurServices() {
                   </h4>
                 </div>
                 <div className="flex-shrink-0 ml-2">
-                  <LearnmoreButton
-                    style="flex gap-flex items-center gap-3  justify-center    rounded-2xl3"
-                    text="BOOK A CALL"
-                  />
+                  <LearnmoreButton style="flex gap-flex items-center gap-3  justify-center    rounded-2xl3">
+                    BOOK A CALL
+                  </LearnmoreButton>
                 </div>
               </div>
               <div className="flex-1 mb-6 sm:mb-8">

@@ -9,8 +9,8 @@ function Navbar() {
   const desktopButtonstyle =
     "hidden lg:block  border-2 bg-[#CE7D63] border-[#CE7D63] hover:border-orange-100 px-6 py-2 rounded-md text-gray-50 hover:text-orange-100 transition-colors cursor-pointer";
   return (
-    <nav className="w-full bg-[#1A1A1A] rounded-md p-2 ">
-      <div className="container mx-auto px-4 rounded-md">
+    <nav className="w-full bg-[#1A1A1A] font-mono rounded-md p-2 ">
+      <div className="container  px-4 rounded-md">
         <div className="flex items-center justify-around h-16">
           {/* Logo */}
           <h1 className="text-orange-100 font-mono text-xl">NextGen</h1>

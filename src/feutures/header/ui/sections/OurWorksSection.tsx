@@ -5,26 +5,7 @@ import {
 } from "@/feutures/header/datas/OurWorksData";
 import LearnmoreButton from "@/components/LearnmoreButton";
 import Image from "next/image";
-
-interface worksItem {
-  logo: string;
-  title: string;
-  category: string;
-  time: string;
-  text: string;
-}
-
-interface TeamMember {
-  id: number;
-  image: string;
-  name: string;
-}
-
-interface ProjectCard {
-  id: number;
-  technologies: string[];
-  teamMembers: TeamMember[];
-}
+import { worksItem, TeamMember } from "@/types/workSectionType";
 
 function OurWorksSection() {
   return (
@@ -37,10 +18,9 @@ function OurWorksSection() {
         >
           OUR WORKS
         </h1>
-        <LearnmoreButton
-          text="ALL WORKS"
-          style="flex gap-flex items-center gap-3  justify-center    rounded-2xl3"
-        />
+        <LearnmoreButton style="flex gap-flex items-center gap-3  justify-center    rounded-2xl3">
+          All works
+        </LearnmoreButton>
       </div>
 
       {/* Works Grid Container */}
@@ -74,10 +54,9 @@ function OurWorksSection() {
                       {item.title}
                     </h2>
                   </div>
-                  <LearnmoreButton
-                    text="DETAILS"
-                    style="flex gap-flex items-center gap-3  justify-center    rounded-2xl3"
-                  />
+                  <LearnmoreButton style="flex gap-flex items-center gap-3  justify-center    rounded-2xl3">
+                    DETAILS
+                  </LearnmoreButton>
                 </div>
 
                 {/* Project Info */}

@@ -1,22 +1,20 @@
-module.exports = {
-  content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
+// tailwind.config.ts
+import type { Config } from "tailwindcss";
+
+const config: Config = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
   theme: {
     extend: {
-      keyframes: {
-        fadeIn: {
-          '0%': { opacity: '0' },
-          '100%': { opacity: '1' },
-        },
-        slideRight: {
-          '0%': { transform: 'translateX(-100%)' },
-          '100%': { transform: 'translateX(0)' },
-        },
-      },
-      animation: {
-        fadeIn: 'fadeIn 1s ease-in-out',
-        slideRight: 'slideRight 0.5s ease-in-out',
+      fontFamily: {
+        'robotoflex': ['var(--font-roboto-flex)', 'sans-serif'],
       },
     },
   },
   plugins: [],
-}
+};
+
+export default config;

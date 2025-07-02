@@ -20,8 +20,8 @@ function NavLink({ item, variant = "desktop", onClick }: NavLinkProps) {
   const getClassName = () => {
     if (variant === "desktop") {
       return isActive
-        ? "text-[#CE7D63] bg-[#0F0F0F] w-23 text-center rounded-md px-4 py-2"
-        : "text-gray-50 bg-[#0F0F0F] w-23 text-center rounded-md hover:text-orange-100 px-4 py-2 align-center";
+        ? "text-[#CE7D63] bg-[#0F0F0F] w-27 text-center align-center rounded-md px-4 py-2"
+        : "text-gray-50 bg-[#0F0F0F] w-27 text-center rounded-md hover:text-orange-100 px-4 py-2 align-center";
     }
 
     if (variant === "tablet") {
