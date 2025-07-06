@@ -6,7 +6,7 @@ import Image from "next/image";
 
 function Testimonials() {
   return (
-    <div className="max-w-7xl mx-auto border border-[#262626] p-3 sm:p-5 rounded-2xl bg-[#0F0F0F]">
+    <div className="max-w-7xl mx-auto border border-[#262626] p-3 sm:p-5 rounded-2xl ">
       {/* Header */}
       <div className="mb-8 bg-[#1A1A1A] border-[#262626] p-1 lg:p-3 rounded-2xl flex justify-between items-center">
         <h1
