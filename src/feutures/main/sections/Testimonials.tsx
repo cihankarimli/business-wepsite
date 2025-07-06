@@ -1,6 +1,6 @@
 import LearnmoreButton from "@/components/LearnmoreButton";
 import React from "react";
-import testimonialsData from "@/feutures/header/datas/TestimonialsData";
+import testimonialsData from "@/feutures/datas/TestimonialsData";
 import { TestimonialsItem } from "@/types/testimonialsType";
 import Image from "next/image";
 

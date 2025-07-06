@@ -1,6 +1,6 @@
-import navbarData from "@/feutures/header/datas/NavbarData";
+import navbarData from "@/feutures/datas/NavbarData";
 import NavLink from "@/components/NavLink";
-import MobileMenuClient from "./MobileMenuClient";
+import MobileMenuClient from "../../../main/sections/MobileMenuClient";
 import ContactUsButton from "@/components/ContactUsButton";
 
 function Navbar() {

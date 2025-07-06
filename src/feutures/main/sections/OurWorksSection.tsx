@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  worksData,
-  projectCardsData,
-} from "@/feutures/header/datas/OurWorksData";
+import { worksData, projectCardsData } from "@/feutures/datas/OurWorksData";
 import LearnmoreButton from "@/components/LearnmoreButton";
 import Image from "next/image";
 import { worksItem, TeamMember } from "@/types/workSectionType";

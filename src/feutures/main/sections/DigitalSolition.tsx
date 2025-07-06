@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import SolitonsWorks from "@/feutures/header/datas/DigitalSolitionsWorks";
-import SolitionsPresentation from "@/feutures/header/datas/DigitalSolitionsPresentations";
+import SolitonsWorks from "@/feutures/datas/DigitalSolitionsWorks";
+import SolitionsPresentation from "@/feutures/datas/DigitalSolitionsPresentations";
 import LearnmoreButton from "@/components/LearnmoreButton";
 import { WorksItem, PresentationItem } from "@/types/digitalSolitiontype";
 

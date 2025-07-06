@@ -1,5 +1,5 @@
 import React from "react";
-import servicesData from "@/feutures/header/datas/OurServices";
+import servicesData from "@/feutures/datas/OurServices";
 import Image from "next/image";
 import LearnmoreButton from "@/components/LearnmoreButton";
 import { ServicesItem } from "@/types/servicesType";
