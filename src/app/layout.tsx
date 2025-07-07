@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Roboto_Flex } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/feutures/header/ui/sections/Navbar";
 import { SmoothScrollProvider } from "@/components/SmoothScrool";
+import Footer from "@/feutures/footer/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,6 +37,7 @@ export default function RootLayout({
         <SmoothScrollProvider>
           <Navbar />
           {children}
+          <Footer />
         </SmoothScrollProvider>
       </body>
     </html>

@@ -47,8 +47,9 @@ function MobileMenuClient({ navbarData }: MobileMenuClientProps) {
 
           {/* Mobile Menu Items */}
           <nav className="flex flex-col">
-            {navbarData.map((item) => (
+            {navbarData.map((item, index) => (
               <NavLink
+                key={index}
                 item={item}
                 variant="mobile"
                 onClick={() => setIsOpen(false)}

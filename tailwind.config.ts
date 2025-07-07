@@ -12,6 +12,15 @@ const config: Config = {
       fontFamily: {
         'robotoflex': ['var(--font-roboto-flex)', 'sans-serif'],
       },
+        keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' }, // <-- fərq burada
+        },
+      },
+      animation: {
+        scroll: 'scroll 30s linear infinite',
+      },
     },
   },
   plugins: [],
