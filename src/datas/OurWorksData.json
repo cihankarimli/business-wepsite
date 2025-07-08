@@ -1,0 +1,44 @@
+{
+  "worksData": [
+    {
+      "id": 1,
+      "logo": "/icons8-star-64.png",
+      "title": "Zenith Fitness App",
+      "category": "Mobile App Development",
+      "time": "6 months",
+      "text": "An all-in-one health and wellness app that offers personalized fitness plans, nutrition guidance, and virtual workout classes."
+    },
+    {
+      "id": 2,
+      "logo": "/icons8-balloon-32.png",
+      "title": "A-Aura Ecommerce",
+      "category": "Web Design & Development",
+      "time": "3 months",
+      "text": "A complete overhaul of a corporate website to enhance its brand identity and user experience."
+    }
+  ],
+  "projectCardsData": [
+    {
+      "id": 1,
+      "technologies": ["React Native", "Firebase", "Redux", "REST API", "MongoDB"],
+      "teamMembers": [
+        { "id": 1, "image": "/member1.png", "name": "John Doe" },
+        { "id": 2, "image": "/member2.png", "name": "Jane Smith" },
+        { "id": 3, "image": "/member3.png", "name": "Mike Johnson" },
+        { "id": 4, "image": "/member4.png", "name": "Sarah Wilson" },
+        { "id": 5, "image": "/member5.png", "name": "David Brown" }
+      ]
+    },
+    {
+      "id": 2,
+      "technologies": ["WordPress", "PHP", "HTML5", "CSS3", "JavaScript"],
+      "teamMembers": [
+        { "id": 6, "image": "/member1.png", "name": "Alice Cooper" },
+        { "id": 7, "image": "/member2.png", "name": "Bob Martin" },
+        { "id": 8, "image": "/member3.png", "name": "Carol Davis" },
+        { "id": 9, "image": "/member4.png", "name": "Daniel White" },
+        { "id": 10, "image": "/member5.png", "name": "Eva Green" }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import NavLink from "@/components/NavLink";
+import NavLink from "@/components/navLink/NavLink";
 
 interface NavItem {
   name: string;

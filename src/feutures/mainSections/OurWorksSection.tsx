@@ -1,6 +1,6 @@
 import React from "react";
-import { worksData, projectCardsData } from "@/feutures/datas/OurWorksData";
-import LearnmoreButton from "@/components/LearnmoreButton";
+import { worksData, projectCardsData } from "@/datas/OurWorksData.json";
+import LearnmoreButton from "@/components/buttons/LearnmoreButton";
 import Image from "next/image";
 import { worksItem, TeamMember } from "@/types/workSectionType";
 

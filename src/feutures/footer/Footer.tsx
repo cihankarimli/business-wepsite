@@ -1,13 +1,19 @@
-import ScrollingText from "@/components/Carousel";
-import NavLink from "@/components/NavLink";
 import Image from "next/image";
-import footerData from "../datas/footerData";
+import footerData from "@/datas/footerData.json";
 import Link from "next/link";
-import { div } from "framer-motion/client";
+import Carousel from "@/components/carousel/Carousel";
 
 function Footer() {
+  const socialMediaData = [
+    { id: 1, workText: "FOLLOW US ON SOCIAL MEDIA" },
+    { id: 2, workText: "INSTAGRAM" },
+    { id: 3, workText: "FACEBOOK" },
+    { id: 4, workText: "TWITTER" },
+    { id: 5, workText: "LINKEDIN" },
+    { id: 6, workText: "YOUTUBE" },
+  ];
   return (
-    <div className="w-full font-robotoflex mt-10">
+    <div className="w-full font-robotoflex mt-10 p-[1%]">
       <div className="bg-[#CE7D63] px-4 sm:px-6 lg:px-8 py-8 sm:py-12 lg:py-16 rounded-2xl sm:rounded-2xl">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col lg:flex-row items-center justify-between gap-8">
@@ -44,8 +50,8 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div>
-        <ScrollingText />
+      <div className="mt-10 bg-[#0F0F0F]  rounded-2xl">
+        <Carousel data={socialMediaData} />
       </div>
       <div className="flex  lg:flex justify-between  font-robotoflex gap-2 bg-[#1A1A1A] mt-10 border-1 border-[#1A1A1A] rounded-2xl">
         {footerData.map((item, index) => (
@@ -62,7 +68,7 @@ function Footer() {
               <p className="text-[clamp(0.75rem,2vw,0.875rem)]">Why Us</p>
               <p className="text-[clamp(0.75rem,2vw,0.875rem)]">About Us</p>
               <p className="text-[clamp(0.75rem,2vw,0.875rem)]">Testimonials</p>
-              <p className="text-[clamp(0.75rem,2vw,0.875rem)]">FAQ's</p>
+              <p className="text-[clamp(0.75rem,2vw,0.875rem)]">{"FAQ's"}</p>
             </div>
           </div>
         ))}

@@ -1,9 +1,9 @@
-import DigitalSolitionSection from "@/feutures/main/sections/DigitalSolition";
-import OurServicesSection from "@/feutures/main/sections/OurServices";
-import OurWorksSection from "@/feutures/main/sections/OurWorksSection";
-import ReasonsSection from "@/feutures/main/sections/ReasonsSection";
-import Testimonials from "@/feutures/main/sections/Testimonials";
-import AskQuestionSection from "@/feutures/main/sections/AskQuestionSection";
+import DigitalSolitionSection from "@/feutures/mainSections/DigitalSolition";
+import OurServicesSection from "@/feutures/mainSections/OurServices";
+import OurWorksSection from "@/feutures/mainSections/OurWorksSection";
+import ReasonsSection from "@/feutures/mainSections/ReasonsSection";
+import Testimonials from "@/feutures/mainSections/Testimonials";
+import AskQuestionSection from "@/feutures/mainSections/AskQuestionSection";
 
 export default function Home() {
   return (

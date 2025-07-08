@@ -1,7 +1,7 @@
 import React from "react";
-import servicesData from "@/feutures/datas/OurServices";
+import servicesData from "@/datas/OurServices.json";
 import Image from "next/image";
-import LearnmoreButton from "@/components/LearnmoreButton";
+import LearnmoreButton from "@/components/buttons/LearnmoreButton";
 import { ServicesItem } from "@/types/servicesType";
 
 function OurServices() {

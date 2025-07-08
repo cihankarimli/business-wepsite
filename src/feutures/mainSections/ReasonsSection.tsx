@@ -1,6 +1,6 @@
 import React from "react";
-import reasonData from "@/feutures/datas/ReasonsData";
-import LearnmoreButton from "@/components/LearnmoreButton";
+import reasonData from "@/datas/ReasonsData.json";
+import LearnmoreButton from "@/components/buttons/LearnmoreButton";
 import { ReasonItem } from "@/types/reosanSectiontype";
 
 function ReasonsSection() {

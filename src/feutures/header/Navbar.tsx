@@ -1,7 +1,7 @@
-import navbarData from "@/feutures/datas/NavbarData";
-import NavLink from "@/components/NavLink";
-import MobileMenuClient from "../../../main/sections/MobileMenuClient";
-import ContactUsButton from "@/components/ContactUsButton";
+import navbarData from "@/datas/NavbarData.json";
+import NavLink from "@/components/navLink/NavLink";
+import MobileMenuClient from "../mainSections/MobileMenuClient";
+import ContactUsButton from "@/components/buttons/ContactUsButton";
 
 function Navbar() {
   const tabletButtonstyle =

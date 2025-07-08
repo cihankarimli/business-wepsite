@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "How long does it take to complete a web development project?",
+    "text": "The timeline varies depending on the project's complexity and requirements. Our team strives to deliver projects on time while maintaining the highest quality standards."
+  },
+  {
+    "id": 2,
+    "title": "Can you handle large-scale mobile app development projects?",
+    "text": "Yes, we specialize in large-scale mobile app development projects. Our experienced team can handle complex requirements and deliver scalable solutions that meet your business needs."
+  },
+  {
+    "id": 3,
+    "title": "Can you integrate third-party APIs into our mobile app?",
+    "text": "Absolutely! We have extensive experience integrating various third-party APIs including payment gateways, social media platforms, mapping services, and custom business APIs."
+  },
+  {
+    "id": 4,
+    "title": "How do you ensure cross-platform compatibility for mobile apps?",
+    "text": "We use modern cross-platform frameworks and conduct thorough testing across different devices and operating systems to ensure consistent performance and user experience."
+  },
+  {
+    "id": 5,
+    "title": "What is your approach to user experience (UX) design?",
+    "text": "Our UX design approach focuses on user research, wireframing, prototyping, and iterative testing to create intuitive and engaging interfaces that meet user needs and business objectives."
+  }
+]

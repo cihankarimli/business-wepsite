@@ -1,10 +1,10 @@
 "use client";
-import LearnmoreButton from "@/components/LearnmoreButton";
+import LearnmoreButton from "@/components/buttons/LearnmoreButton";
 import React, { useState } from "react";
-import askQuestionsData from "@/feutures/datas/AskQuestion";
+import askQuestionsData from "@/datas/AskQuestion.json";
 import { AskQuestionItem } from "@/types/askQuestiontype";
 import Image from "next/image";
-import FormComponents from "@/components/FormComponents";
+import FormComponents from "@/components/form/FormComponents";
 
 function AskQuestionSection() {
   const [activeIndex, setActiveIndex] = useState(null);

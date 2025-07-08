@@ -1,9 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import SolitonsWorks from "@/feutures/datas/DigitalSolitionsWorks";
-import SolitionsPresentation from "@/feutures/datas/DigitalSolitionsPresentations";
-import LearnmoreButton from "@/components/LearnmoreButton";
-import { WorksItem, PresentationItem } from "@/types/digitalSolitiontype";
+import SolitonsWorks from "@/datas/DigitalSolitionsWorks.json";
+import SolitionsPresentation from "@/datas/DigitalSolitionsPresentations.json";
+import LearnmoreButton from "@/components/buttons/LearnmoreButton";
+import { PresentationItem } from "@/types/digitalSolitiontype";
+import Carousel from "@/components/carousel/Carousel";
 
 function DigitalSolition() {
   return (
@@ -13,15 +14,13 @@ function DigitalSolition() {
         {/* Left Section - Main Content */}
         <div className="flex-1 bg-[#1A1A1A] rounded-lg overflow-hidden">
           {/* Header Content */}
-          <div className="p-3 sm:p-4 lg:p-6">
-            <div className="flex flex-col lg:flex-row lg:justify-between items-start mb-4 sm:mb-6 gap-3 sm:gap-4">
+          <div className="p-3 sm:p-4 lg:p-7">
+            <div className="flex  flex-col lg:flex-row lg:justify-between items-start mb-4 p-4 sm:mb-6 gap-3 sm:gap-4">
               <h1
                 className=" text-white leading-tight "
-                style={{ fontSize: "clamp(1.5rem, 5vw, 4rem)" }}
+                style={{ fontSize: "clamp(1.5rem, 5vw, 3.5rem)" }}
               >
-                DIGITAL SOLUTIONS
-                <br />
-                THAT DRIVE SUCCESS
+                DIGITAL SOLUTIONS THAT DRIVE SUCCESS
               </h1>
               <button
                 className="flex items-center gap-2 sm:gap-3 text-[#CE7D63]  whitespace-nowrap self-start lg:self-auto mt-2 lg:mt-0"
@@ -51,21 +50,9 @@ function DigitalSolition() {
           </div>
 
           {/* Services Bar */}
-          <div className="bg-[#0F0F0F] px-3 sm:px-4 lg:px-8 py-3 sm:py-4 lg:py-6">
-            <div
-              className="flex flex-wrap justify-center lg:justify-between gap-2 sm:gap-4 lg:gap-6 text-gray-400 uppercase tracking-wider"
-              style={{ fontSize: "clamp(0.6rem, 1.2vw, 0.875rem)" }}
-            >
-              {SolitonsWorks.map((item: WorksItem, index: number) => (
-                <span key={index} className="flex items-center">
-                  {index > 0 && (
-                    <span className="text-[#CE7D63] mx-2 lg:mx-6 hidden lg:inline">
-                      •
-                    </span>
-                  )}
-                  <span className="text-center">{item.workText}</span>
-                </span>
-              ))}
+          <div className="bg-[#0F0F0F] rounded-2xl mb-3 mt-13 lg:mx-1  sm:mx-1">
+            <div className="flex flex-wrap justify-center lg:justify-between gap-2 sm:gap-4 lg:gap-6 text-gray-400 uppercase tracking-wider text-xs sm:text-sm lg:text-base">
+              <Carousel data={SolitonsWorks} />
             </div>
           </div>
         </div>
